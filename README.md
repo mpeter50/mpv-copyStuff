@@ -1,17 +1,17 @@
 # mpv-copyStuff
 
 This script copies to clipboard the:
-- Filename (With Extension)
+- Filename (With Extension) or URL Link
 - Full Filename Path
-- Relative Filename Path (Parent Directory + Filename)
 - Current Video Time (HH:MM:SS.MS)
 - Current Displayed Subtitle Text
+- Video Metadata
 
 ## Installation
 
 Put the script `copyStuff.lua` in your scripts folder, usually in:
 - Windows: `"C:\Users\Username\AppData\Roaming\mpv\scripts"`.
-- Linux and Mac: `"~/.config/mpv/scripts/"`.
+- Linux and MacOS: `"~/.config/mpv/scripts/"`.
 
 To work, the script needs:
 - Windows: `Powershell`.
@@ -25,9 +25,8 @@ To work, the script needs:
 
 | What is Copied                       | Hotkey     |
 | ------------------------------------ | ---------- |
-| **Filename**                         | **CTRL+f** |
+| **Filename or URL Link**             | **CTRL+f** |
 | **Full Filename Path**               | **CTRL+p** |
-| **Relative Filename Path**           | **CTRL+r** |
 | **Current Video Time (HH:MM:SS.MS)** | **CTRL+t** |
 | **Current Displayed Subtitle Text**  | **CTRL+s** |
 | **Video Duration**                   | **CTRL+d** |
@@ -37,8 +36,7 @@ To work, the script needs:
 
 # Screenshots
 
-![ss1](https://raw.githubusercontent.com/0xR3V/screenshots/main/mpv-copyStuff/example_01.png)
-![ss2](https://raw.githubusercontent.com/0xR3V/screenshots/main/mpv-copyStuff/example_02.png)
-![ss3](https://raw.githubusercontent.com/0xR3V/screenshots/main/mpv-copyStuff/example_03.png)
-![ss4](https://raw.githubusercontent.com/0xR3V/screenshots/main/mpv-copyStuff/example_04.png)
-![ss5](https://raw.githubusercontent.com/0xR3V/screenshots/main/mpv-copyStuff/example_05.png)
+![ss1](https://raw.githubusercontent.com/raphaeltannous/screenshots/main/mpv-copyStuff/example_01.png)
+![ss2](https://raw.githubusercontent.com/raphaeltannous/screenshots/main/mpv-copyStuff/example_02.png)
+![ss4](https://raw.githubusercontent.com/raphaeltannous/screenshots/main/mpv-copyStuff/example_04.png)
+![ss5](https://raw.githubusercontent.com/raphaeltannous/screenshots/main/mpv-copyStuff/example_05.png)
